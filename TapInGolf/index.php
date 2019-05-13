@@ -2,7 +2,7 @@
 require "header.php";
 // Connects to your Database
 //$link = mysqli_connect("den1.mysql1.gear.host", "golfapp", "Iz7gshrEg_X~") or die(mysqli_error());
-$link = mysqli_connect("localhost", "root", "") or die(mysqli_error());
+$link = mysqli_connect("ftp.gear.host", "tapingolf", "417bDvX50wWPJrAkvq25z6wHKQDpafbbMTDpGMcJQ6BFJ6G17ZwCaadassjc") or die(mysqli_error());
 mysqli_select_db($link, "golfapp") or die(mysqli_error($link));
 //Checks if there is a login cookie
 if(isset($_COOKIE['ID_my_site']))
